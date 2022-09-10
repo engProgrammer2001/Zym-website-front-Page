@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashok project</title>
+</head>
+<link rel="stylesheet" href="html file/26style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym.jpeg') ;
+        height: 800px;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        /* font-size: 40px; */
+        display: inline-block;
+        top: 18px;
+        left: 34px;
+        position: absolute;
+    }
+
+    .left img {
+        width: 80px;
+        border-radius: 40px;
+        padding: 2px 12px;
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .mid {
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+        /* top: 18px; */
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 35px;
+        top: 51px;
+        display: inline-block;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 5px 14px;
+        border: 2px solid green;
+        border-radius: 20px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+
+    }
+
+    .btn:hover {
+        color: red;
+        background-color: grey;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 2px;
+
+    }
+
+    .navbar li a {
+        color:red;
+        text-decoration: none;
+        padding: 43px 30px;
+        font-size: 22px;
+
+    }
+
+    .navbar li a:hover {
+        /* color: white; */
+        text-decoration: underline;
+        color: white;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 120px auto;
+        padding: 35px 44px;
+        width: 33%;
+        border-radius: 30px;
+    }
+
+    .action-group input {
+        text-align: center;
+        display: block;
+        width: 380px;
+        padding: 6px 8px;
+        border: 3px solid black;
+        margin: 3px auto;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btn {
+        text-align: center;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        color: #0ce54f;
+    }
+
+    .container button {
+        display: block;
+        width: 35%;
+        margin: 24px auto;
+        /* height: 30px */
+    }
+    footer{
+        text-align: center;
+        justify-content:  center;
+        background-color: #01486a;
+        cursor: pointer;
+        font-size: 24px;
+        
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for the logo  -->
+        <div class="left">
+            <img src="fit.png" alt="">
+            <div>As Fitness</div>
+        </div>
+        <!-- mid box for the navigation  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for the buttons  -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Sign up</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOin the best gym for the body fitness </h1>
+        <form action="noaction.php">
+            <div class="action-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="action-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="action-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="action-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="action-group">
+                <input type="text" name="" placeholder="Enter your phone No.">
+            </div>
+            <div class="action-group">
+                <input type="text" name="" placeholder="Enter your E-mamil">
+            </div>
+            <button class="btn">Submit </button>
+    </div>
+    </form>
+    </div>
+    <footer>
+        copyright &copy; www.ZYM.com join for Good fitness
+    </footer>
+</body>
+
+</html>
